@@ -40,18 +40,15 @@ class Library
 	end
 
 	def top_reader
-		top 1, :reader
+		@readers.map { |reader| reader.name if top.include? (reader.email)}.compact.uniq[0]
 	end
 
 	def top_book
-		top 1, :book
+		@books.map { |book| book.title if top("book").include? (book.title)}.compact.first
 	end
 
 	def mainstream_readers
-		top 3, :book do |books|
-      @orders.map { |order| order.reader if books.include? order.book }
-             .compact.uniq.size
-    	end
+    	@orders.map { |order| order.reader.name if top("book", 3).include? (order.book.title) }.compact.uniq.size
 	end
 
 
@@ -66,15 +63,13 @@ class Library
 
 	private 
 
-	def top(num, target)
-    res = @orders.group_by(&target)
-                 .max_by(num) { |_, orders| orders.size }
-                 .to_h.keys
-    	if block_given? 
-      	yield res
-    	else
-      	num == 1 ? res.first : res
-    	end
+	
+  	def top(target="reader", n=1)
+  	h=Hash.new(0)
+  	@orders.map do |el| 
+  	  target=="reader" ? h[el.reader.email]+=1 : h[el.book.title]+=1 
   	end
+    h.sort_by { |k,v| -v }.first(n).flatten
+  end
 
 end

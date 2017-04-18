@@ -5,13 +5,13 @@ require 'yaml'
 
 lib = Library.new
 
+lib.input_seeds
 
 if File.exist? ("project_library.yml")
 	lib.menu
 else
-	lib.input_seeds
 	File.open("project_library.yml", 'w') {|f| f.write(lib.to_yaml) }
-	puts "Data is ready!"
+	puts "Datafile is ready!"
 	lib.menu
 end
 
@@ -24,15 +24,15 @@ while (put != 5)
 		when "1"
 			lib.get_data
 			put = ""
-			lib.menu
 		when "2"
-			lib.top_reader
+			puts "Top reader: #{lib.top_reader}."
 			put = ""
-			lib.menu
 		when "3"
-			lib.top_book
+			puts "Top book: #{lib.top_book}"
+			put = ""
 		when "4"
-			lib.mainstream_readers
+			puts "How many people ordered one of the three most popular books: #{lib.mainstream_readers}"
+			put = ""
 		when "5"
 		    break
 		else 
