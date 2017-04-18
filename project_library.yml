@@ -1,0 +1,869 @@
+--- !ruby/object:Library
+books:
+- &20 !ruby/object:Book
+  title: It's a Battlefield
+  author: &5 !ruby/object:Author
+    name: Bella Buckridge
+    biography:
+    - Et harum vitae quibusdam. Ut culpa omnis deserunt. Sunt commodi eos reiciendis
+      animi nisi iste assumenda. Sed dicta nostrum nihil. Illum fugit in molestiae
+      porro ut.
+    - Distinctio nesciunt ut nihil sit dignissimos. Rerum laboriosam culpa quia. Quia
+      qui quas esse molestiae omnis ipsa. Ullam est ipsum et in fugit.
+    - Sapiente rerum ratione veritatis officiis. Ut quaerat facilis aspernatur perferendis
+      impedit. Reiciendis omnis libero quas dolore placeat aperiam sequi.
+- &10 !ruby/object:Book
+  title: A Handful of Dust
+  author: &70 !ruby/object:Author
+    name: Willard Kassulke
+    biography:
+    - Et sunt et. Ad nihil similique tempora aliquid. Ea magnam qui dolor accusantium
+      nobis doloribus facilis.
+    - Ut et eum cum labore similique. Sunt eos distinctio est incidunt assumenda.
+      Ut repudiandae tempore architecto iure. Sequi ut est amet fugiat nihil voluptates.
+    - Tempore id quia non earum. Numquam ex itaque impedit. Cumque recusandae qui
+      harum. Reiciendis quis doloribus. Eum sunt vitae ab sed.
+- &7 !ruby/object:Book
+  title: Down to a Sunless Sea
+  author: &2 !ruby/object:Author
+    name: Layne Bogisich DDS
+    biography:
+    - Deleniti quisquam ut qui illum tempore molestias. Expedita qui blanditiis vel
+      suscipit voluptatum tempora aspernatur. Vel qui deleniti qui.
+    - Facere magnam aliquam qui porro maxime perferendis accusantium. Dolorem non
+      qui odit. Aut ea veritatis est. Et et a. Deserunt repudiandae consequatur culpa
+      nesciunt ab quisquam libero.
+    - Tempora rerum nihil temporibus non voluptatem amet hic. Eligendi molestias aspernatur
+      nihil perferendis sapiente autem. Expedita maxime libero doloribus. Earum quod
+      quo qui rerum dolorum ipsum.
+- &14 !ruby/object:Book
+  title: To Sail Beyond the Sunset
+  author: &3 !ruby/object:Author
+    name: Maiya Huels
+    biography:
+    - Sapiente fuga labore alias eligendi. Ut omnis quidem. Eligendi a commodi cumque.
+    - Inventore rerum doloribus sit. Qui sequi nulla debitis ratione rerum natus est.
+      Ab itaque iusto voluptates sit odio commodi. Ut deserunt dicta sed itaque placeat
+      ipsam.
+    - Totam in facilis quia suscipit fugit. Odio recusandae asperiores quo. Enim ea
+      vel omnis in et ducimus molestiae.
+- &30 !ruby/object:Book
+  title: Clouds of Witness
+  author: &6 !ruby/object:Author
+    name: Jacquelyn Waelchi
+    biography:
+    - Est quis veniam minima rem totam tempore. Nam ut vitae non. Eius assumenda est
+      commodi.
+    - Vel aut id. Eius tempore omnis dolore quidem cumque. In facere natus tempora
+      dignissimos.
+    - Omnis officiis aspernatur velit hic necessitatibus. Excepturi et vel rem et.
+      Quibusdam ea officiis voluptatibus ullam consequatur. Iste molestiae doloremque
+      totam nobis. Error culpa et blanditiis.
+- &29 !ruby/object:Book
+  title: By Grand Central Station I Sat Down and Wept
+  author: &1 !ruby/object:Author
+    name: Miss Geovany Wyman
+    biography:
+    - Voluptas fugiat nisi consequatur iste omnis. Minima voluptatibus qui neque vel.
+      Nam quidem architecto illo minus praesentium voluptatibus. Voluptatem voluptas
+      mollitia occaecati culpa.
+    - Architecto sit labore voluptatum similique rerum. Voluptatum maxime tempora
+      facere error et. Aut eum sed optio reprehenderit mollitia. Culpa quia fugiat
+      beatae ipsam voluptas vero enim. Molestiae ad aspernatur et quo sit doloremque
+      vero.
+    - Et deserunt consequatur quia. Reprehenderit impedit est. Magni voluptatum et.
+      Nesciunt nam et incidunt cum fugiat dolores voluptas. Ab eaque temporibus ut
+      porro in sint perferendis.
+- &51 !ruby/object:Book
+  title: Beneath the Bleeding
+  author: &4 !ruby/object:Author
+    name: Demarco Gaylord
+    biography:
+    - Qui omnis dolorem laborum aut quia et. Quod ut voluptas. Incidunt sit cum. Officia
+      molestias ratione ipsam vero nobis fuga.
+    - Cupiditate quia in ut eum. Magni tempora quia laborum similique quia ea cupiditate.
+      Ducimus alias et veritatis iste error. Sit voluptatum perferendis reprehenderit
+      incidunt natus suscipit. Aliquam veniam aperiam et aspernatur sint nostrum.
+    - Ipsam et numquam non recusandae. Omnis est deserunt sint sit et harum quia.
+      Quia ab eaque dolores cum. Et omnis iste tenetur vel quis quia labore. Sit sed
+      temporibus et aspernatur et facere.
+- &8 !ruby/object:Book
+  title: Mr Standfast
+  author: *1
+- &49 !ruby/object:Book
+  title: The Road Less Traveled
+  author: *1
+- &12 !ruby/object:Book
+  title: Far From the Madding Crowd
+  author: *2
+- &42 !ruby/object:Book
+  title: The Line of Beauty
+  author: *3
+- &23 !ruby/object:Book
+  title: I Will Fear No Evil
+  author: *4
+- &16 !ruby/object:Book
+  title: Nectar in a Sieve
+  author: *1
+- &17 !ruby/object:Book
+  title: Beyond the Mexique Bay
+  author: *4
+- &11 !ruby/object:Book
+  title: Dying of the Light
+  author: &69 !ruby/object:Author
+    name: Breana Schneider
+    biography:
+    - Tempora esse voluptas ullam ut. Voluptatum illum consequatur assumenda aut doloribus
+      dolorem. Nisi ut explicabo magnam. Sit saepe accusamus sit eum neque. Itaque
+      quia earum.
+    - Qui ut quisquam placeat totam. Ut est consequatur et quia fugit laudantium a.
+      Explicabo et cumque placeat incidunt. Sapiente et et vel dolores similique libero.
+      Odit impedit et est deleniti aut consequatur.
+    - Architecto ad sint aliquid pariatur excepturi. Accusantium consequatur qui nihil
+      quo. Quis qui magnam. Magni aut et accusantium aut et. Ut voluptatem nostrum.
+- &21 !ruby/object:Book
+  title: Cabbages and Kings
+  author: &68 !ruby/object:Author
+    name: Reymundo Hilll
+    biography:
+    - Necessitatibus et et neque nihil sed quis deleniti. Alias quia eveniet quia
+      neque aut. Quam veritatis sit.
+    - Iusto soluta voluptatem corporis aut architecto ut reprehenderit. Quia sed praesentium
+      quidem. Sint consequatur et dolor alias sit est.
+    - Explicabo aut nostrum praesentium quia dolorem. Ipsa ipsum impedit cumque esse
+      est omnis excepturi. Provident laudantium et ratione. Id sed numquam voluptatibus
+      natus.
+- &15 !ruby/object:Book
+  title: Nectar in a Sieve
+  author: *5
+- &13 !ruby/object:Book
+  title: In a Dry Season
+  author: *5
+- &33 !ruby/object:Book
+  title: The Sun Also Rises
+  author: *5
+- &9 !ruby/object:Book
+  title: Brandy of the Damned
+  author: *6
+orders:
+- !ruby/object:Order
+  book: *7
+  reader: &26 !ruby/object:Reader
+    name: Craig Abernathy
+    email: mason_pollich@hermiston.name
+    city: Yvettetown
+    street: Rowe Fort
+    house: '44640'
+  date: 2017-01-30
+- !ruby/object:Order
+  book: *8
+  reader: &38 !ruby/object:Reader
+    name: Felipe Koelpin
+    email: blaise_collins@weinat.co
+    city: Krajcikmouth
+    street: Goldner Field
+    house: '48724'
+  date: 2017-03-20
+- !ruby/object:Order
+  book: *9
+  reader: &67 !ruby/object:Reader
+    name: Derrick Denesik
+    email: haleigh_dach@legros.com
+    city: Erdmanfurt
+    street: Anderson Ferry
+    house: '370'
+  date: 2017-02-24
+- !ruby/object:Order
+  book: *10
+  reader: &24 !ruby/object:Reader
+    name: Grant Little Jr.
+    email: addison@keeling.com
+    city: Lake Noe
+    street: Heidenreich Views
+    house: '925'
+  date: 2017-03-23
+- !ruby/object:Order
+  book: *11
+  reader: &18 !ruby/object:Reader
+    name: Michele Vandervort V
+    email: fabiola.thiel@runolfonbrekke.co
+    city: West Cortezmouth
+    street: Morar View
+    house: '8566'
+  date: 2017-03-28
+- !ruby/object:Order
+  book: *12
+  reader: &19 !ruby/object:Reader
+    name: Miss Sylvan Bergnaum
+    email: merl@botsford.com
+    city: Sipesland
+    street: Langosh Station
+    house: '326'
+  date: 2017-01-29
+- !ruby/object:Order
+  book: *8
+  reader: &22 !ruby/object:Reader
+    name: Boris Luettgen
+    email: brooks@rempelgrady.io
+    city: Gerlachfurt
+    street: Kuhlman Forges
+    house: '42898'
+  date: 2017-03-10
+- !ruby/object:Order
+  book: *13
+  reader: &34 !ruby/object:Reader
+    name: Jarret Howe
+    email: roderick.von@hansen.com
+    city: Kassulkefurt
+    street: Elmo Ramp
+    house: '4453'
+  date: 2017-01-08
+- !ruby/object:Order
+  book: *12
+  reader: &36 !ruby/object:Reader
+    name: Precious Ziemann
+    email: meaghan_greenfelder@dach.biz
+    city: Brooklynside
+    street: Schultz Mount
+    house: '865'
+  date: 2017-02-05
+- !ruby/object:Order
+  book: *14
+  reader: &27 !ruby/object:Reader
+    name: Amelia Johns I
+    email: suzanne.prohaska@quigley.info
+    city: New Alessandra
+    street: Dicki Drive
+    house: '582'
+  date: 2017-04-06
+- !ruby/object:Order
+  book: *15
+  reader: &32 !ruby/object:Reader
+    name: Tracey Blanda II
+    email: mertie@frami.co
+    city: North Anastasiashire
+    street: Krajcik Glens
+    house: '560'
+  date: 2017-02-01
+- !ruby/object:Order
+  book: *15
+  reader: &25 !ruby/object:Reader
+    name: Christopher Hansen
+    email: janie_reilly@macejkoviczemlak.info
+    city: Feesthaven
+    street: Stark Place
+    house: '8223'
+  date: 2017-02-11
+- !ruby/object:Order
+  book: *10
+  reader: &53 !ruby/object:Reader
+    name: Dr. Abdullah Smitham
+    email: nedra@ritchie.name
+    city: Reichertview
+    street: Vandervort Ford
+    house: '53403'
+  date: 2017-04-02
+- !ruby/object:Order
+  book: *16
+  reader: &55 !ruby/object:Reader
+    name: Daphney Kutch
+    email: carli@paucek.org
+    city: East Zariaville
+    street: Morissette Light
+    house: '6699'
+  date: 2017-01-22
+- !ruby/object:Order
+  book: *17
+  reader: *18
+  date: 2017-03-23
+- !ruby/object:Order
+  book: *8
+  reader: *19
+  date: 2017-02-18
+- !ruby/object:Order
+  book: *15
+  reader: &58 !ruby/object:Reader
+    name: Margarita Pfeffer I
+    email: elna@kozey.org
+    city: East Marcosburgh
+    street: Robert Springs
+    house: '365'
+  date: 2017-03-28
+- !ruby/object:Order
+  book: *20
+  reader: &47 !ruby/object:Reader
+    name: Ross Berge MD
+    email: fabiola_lesch@mccullough.net
+    city: Goodwinview
+    street: Koelpin Rapid
+    house: '871'
+  date: 2017-03-30
+- !ruby/object:Order
+  book: *16
+  reader: &62 !ruby/object:Reader
+    name: Lysanne Gottlieb II
+    email: olaf_jenkins@johnsonhamill.org
+    city: South Rextown
+    street: Moore Highway
+    house: '68846'
+  date: 2017-02-16
+- !ruby/object:Order
+  book: *21
+  reader: &31 !ruby/object:Reader
+    name: Selina Baumbach
+    email: jee@oberbrunner.co
+    city: South Nelsberg
+    street: Christ Ranch
+    house: '439'
+  date: 2017-01-26
+- !ruby/object:Order
+  book: *11
+  reader: *22
+  date: 2017-03-21
+- !ruby/object:Order
+  book: *10
+  reader: *19
+  date: 2017-01-26
+- !ruby/object:Order
+  book: *23
+  reader: *24
+  date: 2017-03-18
+- !ruby/object:Order
+  book: *7
+  reader: &28 !ruby/object:Reader
+    name: Pauline Kihn
+    email: cristopher@kunzerunte.com
+    city: West Roelberg
+    street: Chanel Coves
+    house: '60044'
+  date: 2017-01-30
+- !ruby/object:Order
+  book: *11
+  reader: *25
+  date: 2017-03-03
+- !ruby/object:Order
+  book: *14
+  reader: &65 !ruby/object:Reader
+    name: Karianne Cole
+    email: cleveland@littel.info
+    city: Federicomouth
+    street: Borer Ramp
+    house: '1809'
+  date: 2017-03-24
+- !ruby/object:Order
+  book: *14
+  reader: *26
+  date: 2017-02-16
+- !ruby/object:Order
+  book: *12
+  reader: *26
+  date: 2017-04-12
+- !ruby/object:Order
+  book: *23
+  reader: &59 !ruby/object:Reader
+    name: Diamond Kozey
+    email: kali@klocko.org
+    city: New Leolamouth
+    street: Milford Light
+    house: '74650'
+  date: 2017-02-01
+- !ruby/object:Order
+  book: *17
+  reader: *27
+  date: 2017-03-31
+- !ruby/object:Order
+  book: *12
+  reader: *28
+  date: 2017-02-11
+- !ruby/object:Order
+  book: *29
+  reader: &41 !ruby/object:Reader
+    name: Ruben Hyatt
+    email: mathew_howe@kuhicwalker.biz
+    city: Torphyborough
+    street: Jabari Hollow
+    house: '745'
+  date: 2017-03-08
+- !ruby/object:Order
+  book: *9
+  reader: *22
+  date: 2017-01-09
+- !ruby/object:Order
+  book: *16
+  reader: &37 !ruby/object:Reader
+    name: Claire Boyle
+    email: angelica@moenberge.com
+    city: Gibsonfurt
+    street: Nedra Forks
+    house: '219'
+  date: 2017-03-19
+- !ruby/object:Order
+  book: *30
+  reader: *31
+  date: 2017-01-28
+- !ruby/object:Order
+  book: *20
+  reader: &35 !ruby/object:Reader
+    name: Rupert Kozey II
+    email: joe.abbott@gaylord.biz
+    city: New Kittyton
+    street: Verna Plain
+    house: '61993'
+  date: 2017-04-11
+- !ruby/object:Order
+  book: *10
+  reader: *32
+  date: 2017-02-18
+- !ruby/object:Order
+  book: *7
+  reader: *31
+  date: 2017-04-08
+- !ruby/object:Order
+  book: *20
+  reader: *19
+  date: 2017-03-14
+- !ruby/object:Order
+  book: *33
+  reader: *24
+  date: 2017-01-21
+- !ruby/object:Order
+  book: *12
+  reader: &43 !ruby/object:Reader
+    name: Pietro Ruecker
+    email: alivia.prohaska@muellerstracke.net
+    city: Coltfurt
+    street: Marty Expressway
+    house: '16121'
+  date: 2017-02-04
+- !ruby/object:Order
+  book: *15
+  reader: *27
+  date: 2017-02-01
+- !ruby/object:Order
+  book: *14
+  reader: *34
+  date: 2017-01-24
+- !ruby/object:Order
+  book: *30
+  reader: &39 !ruby/object:Reader
+    name: Tressie Wyman
+    email: tomas@wolffwelch.io
+    city: Americoview
+    street: Marquardt Cliffs
+    house: '18855'
+  date: 2017-03-18
+- !ruby/object:Order
+  book: *12
+  reader: *35
+  date: 2017-01-18
+- !ruby/object:Order
+  book: *15
+  reader: *32
+  date: 2017-02-08
+- !ruby/object:Order
+  book: *8
+  reader: &46 !ruby/object:Reader
+    name: Mr. Travon Pollich
+    email: gloria@klingschinner.com
+    city: Thielberg
+    street: Mya Via
+    house: '74088'
+  date: 2017-04-17
+- !ruby/object:Order
+  book: *11
+  reader: &64 !ruby/object:Reader
+    name: Maya Gerhold
+    email: seth@torphy.co
+    city: Port Winifred
+    street: Hills Oval
+    house: '394'
+  date: 2017-03-10
+- !ruby/object:Order
+  book: *11
+  reader: &44 !ruby/object:Reader
+    name: Mr. Henriette Prosacco
+    email: sylvester.willms@bernier.co
+    city: Port Lizeth
+    street: Jacklyn Mall
+    house: '73619'
+  date: 2017-02-14
+- !ruby/object:Order
+  book: *7
+  reader: &52 !ruby/object:Reader
+    name: Miss Ursula Renner
+    email: vinnie.bins@kunze.com
+    city: Koepptown
+    street: Okuneva Viaduct
+    house: '3774'
+  date: 2017-02-11
+- !ruby/object:Order
+  book: *16
+  reader: &57 !ruby/object:Reader
+    name: Sadye Sauer Jr.
+    email: helena@watsica.co
+    city: Daleport
+    street: Bobbie Shoals
+    house: '62446'
+  date: 2017-02-07
+- !ruby/object:Order
+  book: *9
+  reader: &60 !ruby/object:Reader
+    name: Royal Paucek
+    email: westley@price.com
+    city: Idaland
+    street: Volkman Harbors
+    house: '32882'
+  date: 2017-04-17
+- !ruby/object:Order
+  book: *9
+  reader: *22
+  date: 2017-03-09
+- !ruby/object:Order
+  book: *29
+  reader: *27
+  date: 2017-02-04
+- !ruby/object:Order
+  book: *30
+  reader: &54 !ruby/object:Reader
+    name: Angus Hyatt
+    email: markus_rempel@ankunding.io
+    city: New Francesco
+    street: Pfannerstill Garden
+    house: '24045'
+  date: 2017-03-28
+- !ruby/object:Order
+  book: *17
+  reader: *28
+  date: 2017-03-20
+- !ruby/object:Order
+  book: *16
+  reader: *36
+  date: 2017-02-26
+- !ruby/object:Order
+  book: *12
+  reader: *27
+  date: 2017-01-16
+- !ruby/object:Order
+  book: *7
+  reader: *37
+  date: 2017-04-17
+- !ruby/object:Order
+  book: *16
+  reader: &45 !ruby/object:Reader
+    name: Tatyana Yost
+    email: pedro.gislason@hills.com
+    city: South Ashtyn
+    street: Dare Harbors
+    house: '4340'
+  date: 2017-04-12
+- !ruby/object:Order
+  book: *23
+  reader: &66 !ruby/object:Reader
+    name: Rasheed Reichel
+    email: berenice.parker@dooleydaugherty.info
+    city: New Trinity
+    street: Adams Avenue
+    house: '28957'
+  date: 2017-04-02
+- !ruby/object:Order
+  book: *14
+  reader: &63 !ruby/object:Reader
+    name: Meredith Dickinson
+    email: chesley_vonrueden@reynolds.io
+    city: Port Eulalia
+    street: Okuneva Loaf
+    house: '4443'
+  date: 2017-02-19
+- !ruby/object:Order
+  book: *13
+  reader: &40 !ruby/object:Reader
+    name: Dovie Zieme
+    email: maymie@fahey.io
+    city: Kilbackberg
+    street: Paucek Plains
+    house: '20081'
+  date: 2017-03-04
+- !ruby/object:Order
+  book: *23
+  reader: &48 !ruby/object:Reader
+    name: Eleonore Kassulke
+    email: claud.hackett@bosco.org
+    city: Lubowitzmouth
+    street: Goyette Springs
+    house: '8285'
+  date: 2017-01-27
+- !ruby/object:Order
+  book: *17
+  reader: *38
+  date: 2017-03-28
+- !ruby/object:Order
+  book: *30
+  reader: *26
+  date: 2017-03-11
+- !ruby/object:Order
+  book: *9
+  reader: *39
+  date: 2017-04-09
+- !ruby/object:Order
+  book: *23
+  reader: *40
+  date: 2017-03-07
+- !ruby/object:Order
+  book: *14
+  reader: *41
+  date: 2017-03-01
+- !ruby/object:Order
+  book: *42
+  reader: *43
+  date: 2017-03-25
+- !ruby/object:Order
+  book: *42
+  reader: *44
+  date: 2017-04-03
+- !ruby/object:Order
+  book: *13
+  reader: *45
+  date: 2017-02-19
+- !ruby/object:Order
+  book: *10
+  reader: *18
+  date: 2017-04-01
+- !ruby/object:Order
+  book: *10
+  reader: *22
+  date: 2017-01-27
+- !ruby/object:Order
+  book: *42
+  reader: *46
+  date: 2017-01-27
+- !ruby/object:Order
+  book: *16
+  reader: *47
+  date: 2017-04-11
+- !ruby/object:Order
+  book: *20
+  reader: *48
+  date: 2017-02-07
+- !ruby/object:Order
+  book: *9
+  reader: *40
+  date: 2017-03-22
+- !ruby/object:Order
+  book: *42
+  reader: *26
+  date: 2017-02-05
+- !ruby/object:Order
+  book: *20
+  reader: *36
+  date: 2017-03-31
+- !ruby/object:Order
+  book: *12
+  reader: *48
+  date: 2017-01-13
+- !ruby/object:Order
+  book: *21
+  reader: *43
+  date: 2017-04-03
+- !ruby/object:Order
+  book: *17
+  reader: *41
+  date: 2017-01-14
+- !ruby/object:Order
+  book: *14
+  reader: *26
+  date: 2017-01-14
+- !ruby/object:Order
+  book: *15
+  reader: *26
+  date: 2017-01-09
+- !ruby/object:Order
+  book: *23
+  reader: *36
+  date: 2017-03-15
+- !ruby/object:Order
+  book: *30
+  reader: *37
+  date: 2017-03-17
+- !ruby/object:Order
+  book: *16
+  reader: *28
+  date: 2017-03-13
+- !ruby/object:Order
+  book: *30
+  reader: *34
+  date: 2017-04-04
+- !ruby/object:Order
+  book: *33
+  reader: *39
+  date: 2017-01-10
+- !ruby/object:Order
+  book: *49
+  reader: *32
+  date: 2017-04-05
+- !ruby/object:Order
+  book: *21
+  reader: &50 !ruby/object:Reader
+    name: Archibald Lockman
+    email: maximilian_fritsch@jacobi.net
+    city: Landenmouth
+    street: Marvin River
+    house: '946'
+  date: 2017-03-14
+- !ruby/object:Order
+  book: *17
+  reader: &56 !ruby/object:Reader
+    name: Kelsie Gorczany
+    email: kraig@fritsch.org
+    city: South Sunny
+    street: Considine Mills
+    house: '985'
+  date: 2017-03-03
+- !ruby/object:Order
+  book: *15
+  reader: *43
+  date: 2017-04-14
+- !ruby/object:Order
+  book: *23
+  reader: *50
+  date: 2017-02-05
+- !ruby/object:Order
+  book: *21
+  reader: &61 !ruby/object:Reader
+    name: Theodora Beer PhD
+    email: tyree@bartontromp.net
+    city: Lake Zoila
+    street: Stokes Passage
+    house: '809'
+  date: 2017-02-19
+- !ruby/object:Order
+  book: *51
+  reader: *43
+  date: 2017-03-24
+- !ruby/object:Order
+  book: *11
+  reader: *32
+  date: 2017-03-29
+- !ruby/object:Order
+  book: *23
+  reader: *45
+  date: 2017-02-01
+- !ruby/object:Order
+  book: *51
+  reader: *47
+  date: 2017-01-10
+readers:
+- *52
+- *24
+- !ruby/object:Reader
+  name: Fabian Macejkovic
+  email: leonard_sporer@steuberwiegand.co
+  city: Port Kamillemouth
+  street: Farrell Lake
+  house: '394'
+- *43
+- *44
+- *40
+- *53
+- *31
+- *54
+- *28
+- *55
+- *39
+- *56
+- *57
+- *46
+- *35
+- *47
+- *26
+- *58
+- *59
+- !ruby/object:Reader
+  name: Karolann Braun
+  email: mitchel@mccullough.org
+  city: Fredrickchester
+  street: Swaniawski Lodge
+  house: '17577'
+- *19
+- *41
+- *60
+- *34
+- !ruby/object:Reader
+  name: Alicia Sporer MD
+  email: barbara.parker@vandervort.info
+  city: Port Mortimerhaven
+  street: Garland Cliff
+  house: '15589'
+- *50
+- *36
+- *61
+- !ruby/object:Reader
+  name: Miss Carleton Champlin
+  email: tatum.kiehn@turner.io
+  city: South Hailey
+  street: Ryleigh Burgs
+  house: '3591'
+- *27
+- !ruby/object:Reader
+  name: Summer Vandervort II
+  email: branson@morarsenger.org
+  city: Uniqueville
+  street: Emery Turnpike
+  house: '3601'
+- *62
+- *63
+- !ruby/object:Reader
+  name: Cody Pfannerstill
+  email: dena@turner.io
+  city: Nicolaston
+  street: Boyer Grove
+  house: '209'
+- *22
+- *64
+- *48
+- !ruby/object:Reader
+  name: Malcolm Berge
+  email: vanea@erdman.io
+  city: West Giovanni
+  street: Salvador Pike
+  house: '979'
+- *25
+- *65
+- *66
+- *37
+- *45
+- *38
+- *18
+- *67
+- !ruby/object:Reader
+  name: Favian Krajcik
+  email: trevion@beerorn.org
+  city: North Trentontown
+  street: Jenkins Corners
+  house: '53746'
+- *32
+- !ruby/object:Reader
+  name: Doug Roob
+  email: holly.bahringer@pourosabshire.org
+  city: Lake Lon
+  street: Jacobi Mission
+  house: '15076'
+authors:
+- *5
+- !ruby/object:Author
+  name: Miss Cyrus Thompson
+  biography:
+  - Voluptatem tempora aut ea. Itaque voluptatem eligendi quas. Impedit non voluptas
+    est sed quam iste. Deleniti porro tenetur aut voluptas velit quis. Et voluptas
+    illum culpa.
+  - Illum explicabo sit aut esse natus velit occaecati. Distinctio adipisci et tempore
+    quo. Est nostrum molestiae ipsum.
+  - Est ullam tenetur illum non reiciendis quia repudiandae. Possimus sit inventore
+    cum est earum. Consequatur repellendus dolores autem quasi.
+- *68
+- *69
+- *70
+- *2
+- *1
+- *6
+- *3
+- *4
