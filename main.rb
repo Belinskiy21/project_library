@@ -10,8 +10,8 @@ lib.input_seeds
 if File.exist? ("project_library.yml")
 	lib.menu
 else
-	File.open("project_library.yml", 'w') {|f| f.write(lib.to_yaml) }
-	puts "Datafile is ready!"
+	lib.put_data
+
 	lib.menu
 end
 

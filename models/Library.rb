@@ -34,6 +34,11 @@ class Library
 		100.times { @orders << Order.new(@books.sample, @readers.sample, Faker::Date.backward(100))}
 	end
 
+	def put_data
+	File.open("project_library.yml", 'w') {|f| f.write(self.to_yaml) }
+	puts "Datafile is ready!"
+	end
+
 	def get_data(file = 'project_library.yml')
 		data = YAML.load_file(file)
 		pp data
