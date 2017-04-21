@@ -46,12 +46,10 @@ class Library
 
 	def top_reader
 		top "reader"
-		#@readers.map { |reader| reader.name if top.include? (reader.email)}.compact.uniq[0]
 	end
 
 	def top_book
 		top "book"
-		#@books.map { |book| book.title if top("book").include? (book.title)}.compact.first
 	end
 
 	def mainstream_readers
