@@ -53,8 +53,7 @@ class Library
 	end
 
 	def mainstream_readers
-		
-    	@orders.map { |order| order.reader.name if top("book", 3).include? (order.book.title) }.compact.uniq.size
+		top "book", 3
 	end
 
 
@@ -75,8 +74,12 @@ class Library
   	@orders.map do |el| 
   	  target=="reader" ? h[el.reader.name]+=1 : h[el.book.title]+=1 
   	end
-    res = h.sort_by { |k,v| -v }.first(n).flatten
-    res[0]
+    result = h.sort_by { |k,v| -v }.first(n).flatten
+    unless n == 3 
+    	result[0]
+    else
+    	result.select {|n| n.is_a? (Fixnum)}.inject { |mem, var| mem + var }
+    end
   end
 
 end
