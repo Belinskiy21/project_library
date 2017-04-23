@@ -40,7 +40,7 @@ class Library
 	end
 
 	def get_data(file = 'project_library.yml')
-		data = YAML.load_file(file)
+		data = YAML::load_file(file)
 		pp data
 	end
 
@@ -71,7 +71,7 @@ class Library
 	
   	def top(target="reader", n=1)
   	h=Hash.new(0)
-  	@orders.map do |el| 
+  	@orders.map do |el|
   	  target=="reader" ? h[el.reader.name]+=1 : h[el.book.title]+=1 
   	end
     result = h.sort_by { |k,v| -v }.first(n).flatten
