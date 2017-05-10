@@ -1,11 +1,11 @@
 require 'faker'
 require 'yaml'
 require 'pp'
-require_relative 'Author.rb'
-require_relative 'Book.rb'
-require_relative 'Order.rb'
-require_relative 'Reader.rb'
-require_relative 'Library.rb'
+require_relative 'author.rb'
+require_relative 'book.rb'
+require_relative 'order.rb'
+require_relative 'reader.rb'
+require_relative 'library.rb'
 
 class Library
 	attr_accessor :books, :orders, :readers, :authors

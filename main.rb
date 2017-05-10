@@ -1,5 +1,5 @@
 
-require_relative 'models/Library.rb'
+require_relative 'models/library.rb'
 require 'pry'
 require 'yaml'
 
