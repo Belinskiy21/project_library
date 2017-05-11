@@ -26,11 +26,11 @@ class Library
 
 		def get_data(file = 'project_library.yml')
 			data = YAML::load_file(file)
-	    @books = data.books
-	    @orders = data.orders
-	    @readers = data.readers
-	    @authors = data.authors
-	    pp data
+    	    @books = data.books
+    	    @orders = data.orders
+    	    @readers = data.readers
+    	    @authors = data.authors
+    	    pp data
 		end
 
 		def top_reader
