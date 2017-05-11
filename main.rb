@@ -2,24 +2,25 @@
 require_relative 'models/library.rb'
 require 'pry'
 require 'yaml'
+require_relative 'models/menu.rb'
+require_relative 'models/seeds.rb'
+
+include Seeds
+include Menu
 
 lib = Library.new
-
 lib.input_seeds
 
-if File.exist? ("project_library.yml")
-	lib.menu
-else
-	lib.put_data
-
-	lib.menu
-end
-
+	if File.exist? ("project_library.yml")
+		lib.menu
+	else
+		lib.put_data
+		lib.menu
+	end
 
 put = gets.chomp
 
 while (put != 5)
-
 		case put 
 		when "1"
 			lib.get_data
@@ -34,7 +35,7 @@ while (put != 5)
 			puts "How many people ordered one of the three most popular books: #{lib.mainstream_readers}"
 			put = ""
 		when "5"
-		    break
+		  break
 		else 
 			puts "Follow Menu list! Put 1 to 5!"
 			put = gets.chomp
