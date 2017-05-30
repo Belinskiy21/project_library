@@ -41,10 +41,7 @@ class Library
   end
 
   def mainstream_readers
-    top(3, :book) do |books|
-      @orders.flat_map { |order| order.reader if books.include?(order.book) }
-             .compact.uniq.size
-    end
+    top(3, :book).values.flatten.group_by(&:reader).count
   end
 
   private
@@ -52,9 +49,9 @@ class Library
   def top(number, method)
     result = @orders.group_by(&method)
                     .max_by(number) { |_, item| item.size }
-                    .to_h.keys
+                    .to_h
     if !block_given?
-      number == 1 ? result.first : result
+      number == 1 ? result.keys.first : result
     else
       yield result
     end
